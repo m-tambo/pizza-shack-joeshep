@@ -2,7 +2,7 @@
 
 const express = require('express')
 const app = express()
-const routes = require('./routes/')  // defaults to looking for 'index' file
+const routes = require('./routes/')  // defaults to looking for 'index' file (in routes folder)
 
 // _______pug config_______
 app.set('view engine', 'pug')
