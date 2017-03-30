@@ -2,7 +2,7 @@
 
 const { Router } = require('express')
 
-const show = require('../controllers/aboutCtrl')
+const { show } = require('../controllers/aboutCtrl')
 
 const router = Router()
 
