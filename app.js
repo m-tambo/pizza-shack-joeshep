@@ -16,10 +16,6 @@ app.locals.body.magic = "wooooahhh, it's magic!"
 app.use(express.static('public'))
 app.use(routes)
 
-app.get('/login', (req, res, next) => {
-  res.render('login', {page: 'Login'})
-})
-
 app.get('/register', (req, res, next) => {
   res.render('register', {page: 'Register'})
 })
