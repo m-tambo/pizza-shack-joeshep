@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "git push heroku master",
-    "start": "nodemon ./app.js"
+    "start": "node ./app.js",
+    "dev-start": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
